@@ -11,7 +11,7 @@
     <header>
       <h1>Sweetshop</h1>
       <nav class="main-nav">
-        <a href="product.html">Products</a>
+        <a href="products.html">Products</a>
         <a href="about.html">About Us</a>
         <a href="contact.html">Contact Us</a>
       </nav>
@@ -19,28 +19,100 @@
 
     <main>
       <section class="hero">
-        <div class="left">
-          <img src="" alt="" />
-        </div>
+        <div class="container">
+          <div class="left">
+            <img src="" alt="" />
+          </div>
 
-        <div class="right">
-          <h2>Lorem ipsum dolor sit amet.</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-          <button>Lorem, ipsum.</button>
+          <div class="right">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            <button>Lorem, ipsum.</button>
+          </div>
         </div>
       </section>
 
+      <nav id="filters">
+        <div class="container">
+          <ul id="filters-list" class="product-nav">
+            <li>
+              <a
+                href="#"
+                class="product-nav-item selected"
+                data-product-type=".product"
+                >all</a
+              >
+            </li>
+            <li>
+              <a href="#" data-product-type=".shirts">shirts</a>
+            </li>
+
+            <li>
+              <a href="#" data-product-type=".pants">pants</a>
+            </li>
+            <li>
+              <a href="#" data-product-type=".jackets">jackets</a>
+            </li>
+            <li>
+              <a href="#" data-product-type=".shoes">shoes</a>
+            </li>
+            <li>
+              <a href="#" data-product-type=".accessories">shoes</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
       <section class="products">
-        <ul class="product-nav">
-          <li class="product-nav-item" data-product-type="all">All</li>
-          <li class="product-nav-item" data-product-type="shirt">Shirts</li>
-          <li class="product-nav-item" data-product-type="bandanas">
-            Bandanas
-          </li>
-          <li class="product-nav-item" data-product-type="accessories">
-            Accessories
-          </li>
-        </ul>
+        <div class="container">
+          <div class="product accessories">
+            <div class="overlay">
+              <h4>Lorem.</h4>
+              <p>$1</p>
+            </div>
+            <img src="https://via.placeholder.com/300" alt="" />
+          </div>
+
+          <div class="product accessories">
+            <div class="overlay">
+              <h4>Lorem.</h4>
+              <p>$1</p>
+            </div>
+            <img src="https://via.placeholder.com/300" alt="" />
+          </div>
+
+          <div class="product shirts">
+            <div class="overlay">
+              <h4>Lorem.</h4>
+              <p>$1</p>
+            </div>
+            <img src="https://via.placeholder.com/300" alt="" />
+          </div>
+
+          <div class="product shirts">
+            <div class="overlay">
+              <h4>Lorem.</h4>
+              <p>$1</p>
+            </div>
+            <img src="https://via.placeholder.com/300" alt="" />
+          </div>
+
+          <div class="product shoes">
+            <div class="overlay">
+              <h4>Lorem.</h4>
+              <p>$1</p>
+            </div>
+            <img src="https://via.placeholder.com/300" alt="" />
+          </div>
+
+          <div class="product pants">
+            <div class="overlay">
+              <h4>Lorem.</h4>
+              <p>$1</p>
+            </div>
+            <img src="https://via.placeholder.com/300" alt="" />
+          </div>
+        </div>
       </section>
 
       <footer></footer>
