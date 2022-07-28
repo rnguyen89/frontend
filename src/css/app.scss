@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,900&family=Open+Sans:wght@300;400;700;800&family=Source+Sans+Pro:ital,wght@0,200;0,400;0,700;0,900;1,200&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap");
+
+// font-family: 'Bitter', serif;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Source Sans Pro', sans-serif;
+// font-family: 'Space Mono', monospace;
+
+// Typography
+$heading-display: "Bitter", serif;
+$heading-display2: "Source Sans Pro", serif;
+$body-font: "Open Sans", sans-serif;
+
+// font size
+$text-base: 1rem;
+$text-2xl: 2rem;
+$text-3xl: 3rem;
+$text-2xl-sub: 1.5rem;
+$text-3xl-sub: 2.5rem;
+
+// 10px = 0.625rem
+// 12px = 0.75rem
+// 14px = 0.875rem
+// 16px = 1rem
+// 18px = 1.125rem
+// 20px = 1.25rem
+// 24px = 1.5rem
+// 30px = 1.875rem
+
+// color pallete
+$black: #000100;
+$gray: #a1a6b4;
+$aqua: #94c5cc;
+$babyblue: #b4d2e7;
+$cream: #f8f8f8;
+
+.hide {
+  display: none;
+}
+
+body {
+  font-family: $body-font;
+  font-size: $text-base;
+}
