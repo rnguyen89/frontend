@@ -5,6 +5,13 @@
 // font-family: 'Source Sans Pro', sans-serif;
 // font-family: 'Space Mono', monospace;
 
+// mixins
+@mixin center-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 // Typography
 $heading-display: "Bitter", serif;
 $heading-display2: "Source Sans Pro", serif;
@@ -52,4 +59,10 @@ body {
     color: black;
     margin-left: 0.5rem;
   }
+}
+
+.hero {
+  height: 540px;
+  background-color: grey;
+  @include center-all();
 }
