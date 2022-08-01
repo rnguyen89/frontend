@@ -12,6 +12,12 @@
   align-items: center;
 }
 
+@mixin nav-style {
+  text-decoration: none;
+  color: black;
+  margin-left: 0.5rem;
+}
+
 // Typography
 $heading-display: "Bitter", serif;
 $heading-display2: "Source Sans Pro", serif;
@@ -55,9 +61,7 @@ body {
   align-items: center;
 
   a {
-    text-decoration: none;
-    color: black;
-    margin-left: 0.5rem;
+    @include nav-style();
   }
 }
 
@@ -65,4 +69,12 @@ body {
   height: 540px;
   background-color: grey;
   @include center-all();
+}
+
+.product-nav {
+  display: flex;
+
+  a {
+    @include nav-style();
+  }
 }
