@@ -61,6 +61,10 @@ body {
   padding: 0 40px;
 }
 
+// #filters .container {
+//   padding: 0;
+// }
+
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -93,5 +97,22 @@ body {
   .product {
     position: relative;
     width: 33.333%;
+  }
+}
+
+.product .overlay {
+  opacity: 0;
+  position: absolute;
+  background-color: #feea34;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  transition: opacity 0.5s ease-out;
+
+  &:hover {
+    opacity: 0.8;
   }
 }
